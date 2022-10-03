@@ -25,8 +25,6 @@ allBtnsArray.forEach((ele) => {
 let changeBtn = document.querySelector(".change");
 let controller = document.querySelector(".controller");
 
-console.log(changeBtn);
-console.log(controller);
 changeBtn.onclick = () => {
     controller.classList.toggle("dark");
 };
