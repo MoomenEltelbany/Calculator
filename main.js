@@ -17,7 +17,9 @@ allBtnsArray.forEach((ele) => {
                 display.innerText += e.target.innerText;
             }
         } catch {
-            display.innerText = `ERROR`;
+            (error) => {
+                console.log(error);
+            };
         }
     });
 });
